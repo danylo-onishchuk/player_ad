@@ -77,10 +77,10 @@ class Player {
                   <source src=${link}>
                 </video>
                 <div id="controls" class="controls">
-                  <div id="play" class="btn btn-primary">
+                  <button id="play" class="btn btn-primary">
                     <i class="bi bi-play-fill"></i>
                     Play
-                  </div>
+                  </button>
                   <button id="pause" class="btn btn-primary">
                     <i class="bi bi-pause-fill"></i>
                     Pause
