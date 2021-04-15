@@ -37,7 +37,7 @@ class Player {
 
   close(): void {
     const player: HTMLMediaElement | null = document.querySelector('#player');
-    const controls: HTMLButtonElement | null = document.querySelector('#controls');
+    const controls: HTMLElement | null = document.querySelector('#controls');
     const close: HTMLButtonElement | null = document.querySelector('#close');
 
     if (player && controls && close) {
